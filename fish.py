@@ -13,7 +13,7 @@ class Fish:
         return max(0, min(new_index, river_length - 1))
 
     def reproduce(self):
-        """Creating a new instance of Bear"""
+        """Creating a new instance of Fish"""
         return Fish()
 
     def __repr__(self):
